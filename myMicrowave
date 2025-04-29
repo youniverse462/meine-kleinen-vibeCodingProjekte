@@ -37,8 +37,6 @@ class Microwave:
     def __repr__(self) -> str:
         return f'Microwave(brand="{self.brand}", power_rating="{self.power_rating}")'
 
-    
-
 smeg: Microwave = Microwave(brand = "Smeg", power_rating="B")
 bosch: Microwave = Microwave(brand = "Bosch", power_rating="A+")
 samsung: Microwave = Microwave(brand = "Samsung", power_rating="A++")
